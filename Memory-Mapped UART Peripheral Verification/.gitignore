@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+
+# cocotb / simulator artifacts
+sim_build/
+results.xml
+*.vcd
+*.fst
+*.fst.hier
+dump.vcd
+
+# Keep the waves directory but ignore generated waveform files
+!sim/waves/.gitkeep
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp

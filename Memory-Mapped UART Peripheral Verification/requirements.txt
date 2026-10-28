@@ -1,0 +1,8 @@
+# cocotb: Python-based testbench framework that drives the RTL simulator
+# and lets us write test cases as regular async Python instead of more
+# Verilog/SystemVerilog testbench code.
+cocotb>=1.8.0
+
+# pytest is used by cocotb's test discovery/reporting tooling and is handy
+# for running auxiliary Python-side checks outside of the simulator.
+pytest>=7.0
